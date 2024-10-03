@@ -23,13 +23,13 @@
       color: #fff;
     }
     .section {
-      padding: 66px 0; /* Increased from 60px */
+      padding: 66px 0; 
     }
     .section-divider {
       width: 50%;
       height: 2px;
       background-color: #037272;
-      margin: 0 auto 66px auto; /* Increased from 60px */
+      margin: 0 auto 66px auto; 
     }
     .header-section {
       background: url('https://static.vecteezy.com/system/resources/previews/006/975/249/original/light-blue-green-abstract-mosaic-background-vector.jpg') no-repeat center center/cover;
@@ -99,6 +99,50 @@
       object-fit: cover;
       margin-bottom: 22px; /* Increased from 20px */
     }
+
+    .skills-section {
+  padding: 20px 0;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-list li {
+  font-size: 18px;
+  margin-bottom: 8px;
+  font-weight: normal;
+  color: #333;
+}
+
+.section-title {
+  font-size: 28px;
+  color: #037272;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-md-6:first-child {
+  border-right: 2px solid #037272; 
+  padding-right: 20px;
+}
+
+.col-md-6 {
+  width: 48%; 
+  text-align: left; 
+  position: relative;
+}
+
   </style>
 </head>
 <body>
@@ -129,7 +173,7 @@
     <div class="header-content">
       <img src="profile pic cv closer.jpg" alt="Ivan Reznichenko" class="profile-pic">
       <h1 class="display-4">Ivan Reznichenko</h1>
-      <p class="lead">Web Developer | Programmer | Designer</p>
+      <p class="lead">Quadrilingual | Student | Will to Learn</p>
     </div>
   </header>
 
@@ -147,34 +191,41 @@
   <br><br>
   <div class="section-divider"></div>
 
-  <!-- Skills Section -->
-  <section id="skills" class="skills-section section">
-    <div class="container">
-      <h2 class="section-title text-center">Skills</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <h5>HTML/CSS</h5>
-          <div class="progress mb-3">
-            <div class="progress-bar" role="progressbar" style="width: 90%; background-color: #037272;">90%</div>
-          </div>
-          <h5>JavaScript</h5>
-          <div class="progress mb-3">
-            <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #037272;">80%</div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <h5>Bootstrap</h5>
-          <div class="progress mb-3">
-            <div class="progress-bar" role="progressbar" style="width: 85%; background-color: #037272;">85%</div>
-          </div>
-          <h5>React</h5>
-          <div class="progress mb-3">
-            <div class="progress-bar" role="progressbar" style="width: 75%; background-color: #037272;">75%</div>
-          </div>
-        </div>
+
+<!-- --------------------------------------------------------------------------------- -->
+
+
+
+ <!-- Skills Section -->
+<section id="skills" class="skills-section section">
+  <div class="container">
+    <h1 class="section-title text-center">Skills</h1> <br>
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <ul class="skills-list">
+          <li>MS Office (Word, Excel)</li>
+          <li>Great attention to detail</li>
+          <li>Independence</li>
+          <li>Persistence</li>
+          <li>Will for growth</li>
+        </ul>
+      </div>
+      <div class="col-md-6 text-center">
+        <ul class="skills-list">
+          <li>Knowledge of foreign languages</li>
+          <li>Ability to learn quickly</li>
+          <li>Communication skills</li>
+          <li>Stress resistance</li>
+          <li>Analytical mind</li>
+        </ul>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+ 
+
+
+  <!-- ----------------------------------------------------------------------------------------- -->
 
   <br><br>
   <div class="section-divider"></div>
